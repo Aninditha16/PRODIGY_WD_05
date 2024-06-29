@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task1.css">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="WEATHER APP.png" type="image/x-icon">
+</head>
+<body>
+    <div id="weather-container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+            <input type="text" id="city" placeholder="Enter City/Country">
+            <button onclick="getWeather()"><i class="fas fa-search"></i> Search</button>
+        </div>
+        <div id="weather-details">
+            <img id="weather-icon" alt="Weather Icon">
+            <div id="temp-div"></div>
+            <div id="weather-info"></div>
+        </div>
+        <div id="hourly-forecast-container">
+            <h2>Hourly Forecast</h2>
+            <div id="hourly-forecast"></div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
